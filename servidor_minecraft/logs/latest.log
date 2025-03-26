@@ -1,0 +1,989 @@
+[26Mar2025 18:34:10.300] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[26Mar2025 18:34:10.303] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[26Mar2025 18:34:11.619] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Mar2025 18:34:11.674] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Mar2025 18:34:11.984] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 18:34:11.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 18:34:11.986] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 18:34:11.987] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Mar2025 18:34:12.243] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[26Mar2025 18:34:12.244] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/Minecraft/servidor_minecraft/mods/expandability-9.0.4.jar
+[26Mar2025 18:34:12.245] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[26Mar2025 18:34:14.713] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Mar2025 18:34:14.778] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[26Mar2025 18:34:14.820] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[26Mar2025 18:34:14.876] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Mar2025 18:34:15.076] [main/INFO] [Puzzles Lib/]: Loading 63 mods:
+	- alexsmobs 1.22.8
+	- appleskin 2.5.1+mc1.20.1
+	- aquamirae 6.API15
+	- architectury 9.2.14
+	- artifacts 9.5.11
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- biomemakeover 1.20.1-1.11.4
+		\-- taniwha 1.20.0-5.4.4
+	- carryon 2.1.2.7
+	- cataclysm 2.62
+	- cfm 7.0.0-pre36
+	- citadel 2.5.7
+	- cloth_config 11.1.136
+	- collective 7.85
+	- cosmeticarmorreworked 1.20.1-v1a
+	- crittersandcompanions 2.2.2
+	- curios 5.12.1+1.20.1
+	- cyclopscore 1.19.9
+	- dungeons_arise 2.1.58-1.20.x
+	- dynamiclights 1.20.1.2
+	- easy_emerald 1.5.8
+	- easy_villagers 1.20.1-1.1.23
+	- elevatorid 1.20.1-lex-1.9
+	- elysium_api 1.0.2
+	- enchantinginfuser 8.0.2
+	- evilcraft 1.2.52
+		\-- evilcraftcompat 1.2.52
+	- expandability 9.0.4
+	- explorify 1.6.2
+	- forge 47.3.7
+	- geckolib 4.4.9
+	- geophilic 2.0.0-mc1.20u1.20.1
+	- hangglider 8.0.1
+	- iceandfire 2.1.13-1.20.1-beta-4
+	- infernalmobs 1.20.1.3
+	- ironbookshelves 1.20.1-1.4.7-forge
+		\-- configlibtxf 4.2.6-forge
+	- jade 11.11.1+forge
+	- journeymap 5.10.3
+	- lionfishapi 2.4-Fix
+	- magnumtorch 8.0.2
+	- measurements 2.0.0
+	- minecraft 1.20.1
+	- mr_serversleep 1-datapack
+	- mutantmonsters 8.0.7
+	- netherexp 2.2.1
+		\-- mixinextras 0.4.1
+	- not_just_sandwich 1.9.1
+	- obscure_api 15
+	- puzzleslib 8.1.25
+		\-- puzzlesaccessapi 8.0.7
+	- reap 1.20.1-1.0.2
+	- ribbits 1.20.1-Forge-3.0.4
+	- roughlyenoughitems 12.1.785
+	- securitycraft 1.9.12
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- tectonic 2.4.1
+	- tombstone 8.9.0
+	- trashslot 15.1.0
+	- treeharvester 9.1
+	- twilightforest 4.3.2508
+	- yungsapi 1.20-Forge-4.0.6
+[26Mar2025 18:34:15.088] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Mar2025 18:34:17.197] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[26Mar2025 18:34:18.449] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zhd000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[26Mar2025 18:34:24.141] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[26Mar2025 18:34:24.257] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@740fefc6 on thread Thread[modloading-worker-0,5,main]
+[26Mar2025 18:34:24.260] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2352!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23200!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23200!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23200!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23200!/:com.obscuria]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23217!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23216!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[26Mar2025 18:34:24.267] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[26Mar2025 18:34:24.470] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[26Mar2025 18:34:24.474] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[26Mar2025 18:34:24.478] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[26Mar2025 18:34:24.479] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[26Mar2025 18:34:24.487] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[26Mar2025 18:34:24.488] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[26Mar2025 18:34:24.489] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[26Mar2025 18:34:24.493] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[26Mar2025 18:34:24.985] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[26Mar2025 18:34:24.985] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[26Mar2025 18:34:25.178] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for magnumtorch:main
+[26Mar2025 18:34:25.212] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for hangglider:main
+[26Mar2025 18:34:25.395] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[26Mar2025 18:34:25.396] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[26Mar2025 18:34:25.397] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[26Mar2025 18:34:25.401] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[26Mar2025 18:34:25.402] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[26Mar2025 18:34:25.424] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[26Mar2025 18:34:25.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[26Mar2025 18:34:25.426] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[26Mar2025 18:34:25.428] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[26Mar2025 18:34:25.428] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[26Mar2025 18:34:25.429] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[26Mar2025 18:34:25.531] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.85.
+[26Mar2025 18:34:26.154] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[26Mar2025 18:34:26.186] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[26Mar2025 18:34:26.208] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[26Mar2025 18:34:26.348] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id biomemakeover:cl_complete_quest
+[26Mar2025 18:34:26.349] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id biomemakeover:update_dir_data
+[26Mar2025 18:34:26.821] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_flowered_barrel_cactus] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mesmerite_slab] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_blue_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:black_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_stone_bricks] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:directional_data] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_slab] was not realized!
+[26Mar2025 18:34:26.822] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_glowshroom_brick_wall] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_mushroom_brick] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_brick_stairs] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:glowshroom_stem_brick_wall] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_ancient_oak_wood] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_willow_log] was not realized!
+[26Mar2025 18:34:26.823] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_door] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_mushroom_brick_stairs] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blue_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_stone_bricks_stairs] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:yellow_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_wild_mushrooms] was not realized!
+[26Mar2025 18:34:26.824] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cattail] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blue_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_gray_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_stairs] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_blue_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:white_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:magenta_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:black_thistle] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_glowshroom_block] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_orange_glowshroom] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cladded_stone] was not realized!
+[26Mar2025 18:34:26.825] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:gray_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_hanging_sign] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:dried_peat_bricks] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_trapdoor] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_cobblestone_wall] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_stairs] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_stairs] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_log] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_log] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_glowshroom_brick] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:polished_mesmerite_wall] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.826] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_pressure_plate] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_planks] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:glowshroom_stem_brick] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_slab] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_wood] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_slab] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:lime_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:black_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:pink_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_cobblestone_stairs] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.827] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:barrel_cactus_flowered] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_blighted_balsa_log] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_glowshroom_brick_slab] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_saguaro_cactus] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:foxglove] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:small_lily_pad] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:pink_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:gray_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_purple_glowshroom] was not realized!
+[26Mar2025 18:34:26.828] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_glowshroom] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_cobblestone_slab] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:large_illunite_bud] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_gray_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_log] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_barrel_cactus] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_fence] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:crude_cladding_block] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:medium_illunite_bud] was not realized!
+[26Mar2025 18:34:26.829] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_glowshroom_brick_slab] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_willow_sapling] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_hanging_sign] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:tall_red_mushroom] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_fence_gate] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_glowshroom_brick_stairs] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_wood] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:marigold] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.830] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:lime_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_mushroom_brick_stairs] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:polished_mesmerite_stairs] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_wall_sign] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mycelium_roots] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:dried_peat_bricks_slab] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:white_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_wall_sign] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_brick_slab] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_glowshroom] was not realized!
+[26Mar2025 18:34:26.831] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_glowshroom_brick_slab] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cyan_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:glowshroom_stem_brick_slab] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_blue_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:peat_farmland] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_trapdoor] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_glowshroom] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_leaves] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_wall_sign] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:polished_mesmerite] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_fence] was not realized!
+[26Mar2025 18:34:26.832] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:reed_thatch_slab] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_stone_bricks_slab] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_wall_sign] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_sign] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mushroom_stem_brick] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_swamp_cypress_wood] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_gray_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:white_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.833] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mossy_dried_peat_brick_stairs] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_door] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:lime_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_leaves] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_dried_peat_bricks] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mossy_dried_peat_brick_slab] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:rootling_crop] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_sapling] was not realized!
+[26Mar2025 18:34:26.834] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_swamp_cypress_log] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:barrel_cactus] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mushroom_stem_brick_wall] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_trapdoor] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_sign] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_wall_hanging_sign] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:dried_peat] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:magenta_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:yellow_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:illunite_cluster] was not realized!
+[26Mar2025 18:34:26.835] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cyan_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_dried_peat_brick_wall] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_leaves] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_wall_hanging_sign] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_trapdoor] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:lightning_bug_bottle] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:saguaro_cactus] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_hanging_sign] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_sapling] was not realized!
+[26Mar2025 18:34:26.836] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_log] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_gray_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cyan_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mesmerite_stairs] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_wood] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_sign] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:polished_mesmerite_slab] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mesmerite] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:reed] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_blighted_balsa_wood] was not realized!
+[26Mar2025 18:34:26.837] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:lime_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cyan_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_green_glowshroom] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_swamp_cypress_sapling] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_button] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_ancient_oak_sapling] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_fence_gate] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_button] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_fence_gate] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:itching_ivy] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_glowshroom_brick] was not realized!
+[26Mar2025 18:34:26.838] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_glowshroom_brick_wall] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:paydirt] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:wild_mushrooms] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_wood] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:altar] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:gray_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:black_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_mushroom_brick_slab] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:yellow_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.839] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_planks] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:magenta_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_button] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_planks] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_glowshroom_brick_wall] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_mushroom_brick_slab] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_fence] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:water_lily] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willowing_branches] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:pink_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.840] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_mycelium_roots] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:magenta_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ivy] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:light_blue_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:potted_blighted_balsa_sapling] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_planks] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_dried_peat_brick_slab] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:buttonbush] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_cobblestone] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_willow_wood] was not realized!
+[26Mar2025 18:34:26.841] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:poltergeist] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:peat] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_sapling] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_mushroom_brick] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mushroom_stem_brick_stairs] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:white_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_bricks] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:small_illunite_bud] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:gray_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_glowshroom_block] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:yellow_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.842] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_stone_bricks_wall] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:stripped_ancient_oak_log] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:red_mushroom_brick_wall] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:pink_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:reed_thatch_stairs] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_wall_hanging_sign] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_fence_gate] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:black_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mossy_peat] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_glowshroom_block] was not realized!
+[26Mar2025 18:34:26.843] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_sign] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_slab] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_stairs] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_dried_peat_brick_stairs] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:dried_peat_bricks_stairs] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_hanging_sign] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_wall_hanging_sign] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:glowshroom_stem] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:brown_mushroom_brick_wall] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mossy_dried_peat_bricks] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_glowshroom_brick] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blue_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:26.844] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_fence] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mossy_dried_peat_brick_wall] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:budding_illunite] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_terracotta_bricks] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:tall_brown_mushroom] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_button] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:suspicious_red_sand] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blighted_balsa_door] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:orange_glowshroom_brick_stairs] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mushroom_stem_brick_slab] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_sapling] was not realized!
+[26Mar2025 18:34:26.845] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:reed_thatch] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_glowshroom_brick_stairs] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mesmerite_wall] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:moth_blossom] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_leaves] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:willow_pressure_plate] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:green_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:mycelium_sprouts] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:illunite_block] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_pressure_plate] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:purple_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:26.846] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:cracked_brick_wall] was not realized!
+[26Mar2025 18:34:26.847] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:glowshroom_stem_brick_stairs] was not realized!
+[26Mar2025 18:34:26.847] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:ancient_oak_door] was not realized!
+[26Mar2025 18:34:26.847] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:blue_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:26.847] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:dried_peat_bricks_wall] was not realized!
+[26Mar2025 18:34:26.847] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:block / biomemakeover:swamp_cypress_pressure_plate] was not realized!
+[26Mar2025 18:34:28.821] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:attribute / biomemakeover:projectile_resistance] was not realized!
+[26Mar2025 18:34:28.907] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_pressure_plate] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_button] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mesmerite_stairs] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:black_tapestry] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cladding_upgrade_smithing_template] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:worker_pottery_sherd] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:saguaro_cactus] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_gray_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:polished_mesmerite_slab] was not realized!
+[26Mar2025 18:34:28.908] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_log] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ghost_spawn_egg] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_blighted_balsa_wood] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mesmerite] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:scuttler_tail] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_brick] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_sapling] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:button_mushrooms_music_disk] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:icon_item] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_wood] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:gray_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.909] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_tapestry] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:reed] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:crude_fragment] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lightning_bug_bottle] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cyan_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lime_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:pink_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:magenta_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_glowshroom_brick] was not realized!
+[26Mar2025 18:34:28.910] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:itching_ivy] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:wild_mushrooms] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_fence_gate] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:black_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:altar] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_wood] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blightbat_spawn_egg] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:roasted_bulbus_root] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_tapestry] was not realized!
+[26Mar2025 18:34:28.911] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_planks] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:crude_cladding] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_button] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_planks] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:pink_bud] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_button] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ivy] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:soul_embers] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cooked_glowfish] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:medium_illunite_bud] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:yellow_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.912] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_mushroom_brick] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:magenta_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_mushroom_brick_slab] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:water_lily] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_tapestry] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:enchanted_totem] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:wart] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_fence] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_mushroom_brick_slab] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_glowshroom] was not realized!
+[26Mar2025 18:34:28.913] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_glowshroom_brick_slab] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:small_lily_pad] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:crude_cladding_block] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cyan_bud] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:gray_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_gray_tapestry] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:white_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:pink_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.914] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_brick_slab] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:raw_crab] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_cobblestone_slab] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:whinny_pottery_sherd] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:foxglove] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_gray_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_glowshroom_brick_stairs] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cyan_tapestry] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_log] was not realized!
+[26Mar2025 18:34:28.915] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_wood] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:tall_red_mushroom] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_glowshroom_brick_slab] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_door] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:white_tapestry] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lime_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:marigold] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_fence] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:large_illunite_bud] was not realized!
+[26Mar2025 18:34:28.916] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_blue_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:paydirt] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:polished_mesmerite_stairs] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_leaves] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_fence_gate] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mycelium_roots] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_trapdoor] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dried_peat_bricks_slab] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_swamp_cypress_wood] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:peat_farmland] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:decayed_spawn_egg] was not realized!
+[26Mar2025 18:34:28.917] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cyan_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cooked_crab] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_glowshroom] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_glowshroom] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:gray_tapestry] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cyan_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mossy_dried_peat_brick_stairs] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_fence] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:magenta_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.918] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dried_peat] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:moth_scales] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_mushroom_brick_stairs] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_stone_bricks_stairs] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dragonfly_wings] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:adjudicator_tapestry] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mushroom_stem_brick] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowfish_bucket] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cladded_chestplate] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_glowshroom_brick_slab] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowshroom_stem_brick_slab] was not realized!
+[26Mar2025 18:34:28.919] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:reed_thatch_slab] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stone_golem_spawn_egg] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_gray_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mossy_dried_peat_brick_slab] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cowboy_spawn_egg] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_leaves] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_trapdoor] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_stone_bricks_slab] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_tapestry] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:yellow_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.920] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_dried_peat_bricks] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lightning_bottle] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lime_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_trapdoor] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_blue_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:white_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stunt_powder] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_sapling] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_swamp_cypress_log] was not realized!
+[26Mar2025 18:34:28.921] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:illunite_cluster] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_jives_music_disk] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:polished_mesmerite] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blue_bud] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_dried_peat_brick_wall] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mushroom_stem_brick_wall] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lightning_bug_spawn_egg] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_leaves] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:barrel_cactus] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_bud] was not realized!
+[26Mar2025 18:34:28.922] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:helmit_crab_spawn_egg] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:yellow_tapestry] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_brick_stairs] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mushroom_trader_spawn_egg] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:black_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_blue_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_glowshroom_brick_wall] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:refined_pottery_sherd] was not realized!
+[26Mar2025 18:34:28.923] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowshroom_stem_brick_wall] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:directional_data] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ghost_town_music_disk] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mesmerite_slab] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_willow_log] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:raw_toad] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_stone_bricks] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:yellow_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_glowshroom_block] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_door] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowshroom_stem_brick] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_leaves] was not realized!
+[26Mar2025 18:34:28.924] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_mushroom_brick] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_slab] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:witch_hat] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ectoplasm] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cladded_helmet] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mushroom_stem_brick_slab] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_stairs] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:scuttler_spawn_egg] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:white_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:magenta_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.925] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_mushroom_brick_stairs] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dried_peat_bricks] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cattail] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blue_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:black_thistle] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_glowshroom_brick] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:bat_wing] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:moth_spawn_egg] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_mushroom_brick_wall] was not realized!
+[26Mar2025 18:34:28.926] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_stairs] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cladded_stone] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cooked_toad] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_log] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_cobblestone_wall] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_log] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_trapdoor] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:polished_mesmerite_wall] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_stairs] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blue_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.927] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:gray_bud] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dragonfly_spawn_egg] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_ancient_oak_wood] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lime_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:black_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_pressure_plate] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_planks] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_wood] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_slab] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:barrel_cactus_flowered] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_blighted_balsa_log] was not realized!
+[26Mar2025 18:34:28.928] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:pink_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_sapling] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:pink_tapestry] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cladded_boots] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_slab] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cladded_leggings] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:magenta_bud] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_cobblestone_stairs] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:lime_tapestry] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:poltergeist] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_rose_music_disk] was not realized!
+[26Mar2025 18:34:28.929] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:buttonbush] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_willow_wood] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:rootling_seeds] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_fence] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_planks] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blue_tapestry] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_glowshroom_block] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_blue_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_cobblestone] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:yellow_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_slab] was not realized!
+[26Mar2025 18:34:28.930] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_bricks] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willowing_branches] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:white_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_glowshroom_block] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_tapestry] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:peat] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mushroom_stem_brick_stairs] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_glowshroom_brick_wall] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:rootling_spawn_egg] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_pressure_plate] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.931] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_glowshroom_brick_stairs] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowfish_spawn_egg] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_glowshroom_brick] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:owl_spawn_egg] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mossy_dried_peat_brick_wall] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:crab_chowder] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_stone_bricks_wall] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:gray_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mossy_dried_peat_bricks] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:pink_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blue_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.932] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dried_peat_bricks_stairs] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowfish] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:red_mushroom_brick_wall] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:reed_thatch_stairs] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:purple_glowshroom_brick_wall] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_dried_peat_brick_stairs] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_dried_peat_brick_slab] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_stairs] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mossy_peat] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:gray_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:black_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_fence_gate] was not realized!
+[26Mar2025 18:34:28.933] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:tall_brown_mushroom] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mesmerite_wall] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_button] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowshroom_stew] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blightbat_wing] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowshroom_stem] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:swamp_cypress_fence_gate] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:reed_thatch] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:moth_blossom] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:brown_bud] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:willow_sapling] was not realized!
+[26Mar2025 18:34:28.934] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cracked_brick_wall] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_gray_terracotta_brick_stairs] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:orange_glowshroom_brick_stairs] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_blue_bud] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:suspicious_red_sand] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:toad_spawn_egg] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:illunite_shard] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blighted_balsa_door] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:light_blue_tapestry] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:budding_illunite] was not realized!
+[26Mar2025 18:34:28.935] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:tadpole_bucket] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:small_illunite_bud] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:mycelium_sprouts] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:dried_peat_bricks_wall] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:stripped_ancient_oak_log] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cyan_terracotta_bricks] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_door] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:blue_terracotta_brick_wall] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:glowshroom_stem_brick_stairs] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:magenta_tapestry] was not realized!
+[26Mar2025 18:34:28.936] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:cowboy_hat] was not realized!
+[26Mar2025 18:34:28.937] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:illunite_block] was not realized!
+[26Mar2025 18:34:28.937] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:green_terracotta_brick_slab] was not realized!
+[26Mar2025 18:34:28.937] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:ancient_oak_pressure_plate] was not realized!
+[26Mar2025 18:34:28.937] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:bulbus_root] was not realized!
+[26Mar2025 18:34:28.937] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:item / biomemakeover:tadpole_spawn_egg] was not realized!
+[26Mar2025 18:34:29.504] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:mushroom_trader] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:moth] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:owl] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:toad] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:helmit_crab] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:dragonfly] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:glowfish] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:blightbat] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:tadpole] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:stone_golem] was not realized!
+[26Mar2025 18:34:29.505] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:rootling] was not realized!
+[26Mar2025 18:34:29.506] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:scuttler] was not realized!
+[26Mar2025 18:34:29.506] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:decayed] was not realized!
+[26Mar2025 18:34:29.506] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:cowboy] was not realized!
+[26Mar2025 18:34:29.506] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:lightning_bug_alternate] was not realized!
+[26Mar2025 18:34:29.506] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / biomemakeover:ghost] was not realized!
+[26Mar2025 18:34:29.717] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[26Mar2025 18:34:30.318] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[26Mar2025 18:34:30.319] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[26Mar2025 18:34:30.320] [Thread-1/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[26Mar2025 18:34:30.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Minecraft/servidor_minecraft/config/cosmeticarmorreworked-common.toml is not correct. Correcting
+[26Mar2025 18:34:30.478] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Mar2025 18:34:30.479] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.CosArmorKeepThroughDeath was corrected from null to its default, false. 
+[26Mar2025 18:34:30.479] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.CosArmorDisableRecipeBook was corrected from null to its default, false. 
+[26Mar2025 18:34:30.479] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.CosArmorDisableCosHatCommand was corrected from null to its default, false. 
+[26Mar2025 18:34:30.624] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[26Mar2025 18:34:30.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[26Mar2025 18:34:31.054] [main/INFO] [journeymap/]: Initializing Packet Registries
+[26Mar2025 18:34:31.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.9 Target: null
+[26Mar2025 18:34:31.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[26Mar2025 18:34:31.074] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[26Mar2025 18:34:31.074] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[26Mar2025 18:34:31.074] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[26Mar2025 18:34:31.076] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[26Mar2025 18:34:31.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 8.0.7 Target: null
+[26Mar2025 18:34:31.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[26Mar2025 18:34:31.087] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23216!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23216!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Mar2025 18:34:31.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://maxhenkel.de/update/reap.json
+[26Mar2025 18:34:31.153] [modloading-worker-0/INFO] [easy_emerald/]: Hello world from EasyEmerald
+[26Mar2025 18:34:31.153] [modloading-worker-0/INFO] [easy_emerald/]: EasyEmerald IMC [Hello world]
+[26Mar2025 18:34:31.230] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[26Mar2025 18:34:31.234] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[26Mar2025 18:34:31.249] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[26Mar2025 18:34:31.253] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[26Mar2025 18:34:31.255] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[26Mar2025 18:34:31.255] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[26Mar2025 18:34:31.257] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[26Mar2025 18:34:31.986] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: UP_TO_DATE Current: 1.20.1-1.0.2 Target: null
+[26Mar2025 18:34:31.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[26Mar2025 18:34:32.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[26Mar2025 18:34:32.071] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[26Mar2025 18:34:32.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.52 Target: null
+[26Mar2025 18:34:32.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[26Mar2025 18:34:32.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[26Mar2025 18:34:32.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Mar2025 18:34:32.357] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[26Mar2025 18:34:32.357] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[26Mar2025 18:34:32.456] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[26Mar2025 18:34:32.456] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [magnumtorch] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/magnumtorch.json
+[26Mar2025 18:34:32.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [magnumtorch] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[26Mar2025 18:34:32.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_serversleep] Starting version check at https://api.modrinth.com/updates/Cw8IlnGM/forge_updates.json
+[26Mar2025 18:34:32.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_serversleep] Found status: AHEAD Current: 1-datapack Target: null
+[26Mar2025 18:34:32.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/hangglider.json
+[26Mar2025 18:34:32.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [hangglider] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[26Mar2025 18:34:32.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[26Mar2025 18:34:33.060] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.20.1-1.1.23 Target: null
+[26Mar2025 18:34:33.060] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[26Mar2025 18:34:33.184] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.12 Target: null
+[26Mar2025 18:34:33.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
+[26Mar2025 18:34:33.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
+[26Mar2025 18:34:33.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[26Mar2025 18:34:33.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.0 Target: 8.9.2
+[26Mar2025 18:34:33.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[26Mar2025 18:34:33.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[26Mar2025 18:34:33.775] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[26Mar2025 18:34:33.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.25 Target: 8.1.29
+[26Mar2025 18:34:33.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[26Mar2025 18:34:33.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: OUTDATED Current: 8.0.2 Target: 8.0.3
+[26Mar2025 18:34:33.795] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[26Mar2025 18:34:33.805] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23216!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23216!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[26Mar2025 18:34:35.913] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Mar2025 18:34:39.269] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23215!/assets/.mcassetsroot' uses unexpected schema
+[26Mar2025 18:34:39.269] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23215!/data/.mcassetsroot' uses unexpected schema
+[26Mar2025 18:34:40.809] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[26Mar2025 18:34:40.915] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.9.0.jar
+[26Mar2025 18:34:42.027] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[26Mar2025 18:34:42.056] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[26Mar2025 18:34:42.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[26Mar2025 18:34:42.072] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[26Mar2025 18:34:42.108] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[26Mar2025 18:34:42.110] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[26Mar2025 18:34:42.112] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[26Mar2025 18:34:42.117] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[26Mar2025 18:34:42.120] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 17 recipes
+[26Mar2025 18:34:42.275] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3927 advancements
+[26Mar2025 18:34:42.279] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[26Mar2025 18:34:42.283] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[26Mar2025 18:34:42.302] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[26Mar2025 18:34:42.309] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[26Mar2025 18:34:42.336] [main/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[26Mar2025 18:34:42.336] [main/INFO] [REI/]: [REI] REIPlugin starting main-reload for START.
+[26Mar2025 18:34:42.337] [main/INFO] [REI/]: [REI] Plugins (2):
+[26Mar2025 18:34:42.337] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[26Mar2025 18:34:42.337] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[26Mar2025 18:34:42.337] [main/INFO] [REI/]: [REI] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[26Mar2025 18:34:42.357] [main/INFO] [REI/]: [REI] ----------------------------------------
+[26Mar2025 18:34:42.357] [main/INFO] [REI/]: [REI] REIServerPlugin starting main-reload for START.
+[26Mar2025 18:34:42.358] [main/INFO] [REI/]: [REI] Plugins (2):
+[26Mar2025 18:34:42.358] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[26Mar2025 18:34:42.358] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[26Mar2025 18:34:42.359] [main/INFO] [REI/]: [REI] ----------------------------------------
+[26Mar2025 18:34:42.367] [main/INFO] [REI/]: [REI] REIPlugin finished post-reload for START in 3.640 ms, totaling 38.85 ms.
+[26Mar2025 18:34:42.371] [main/INFO] [REI/]: [REI] REIServerPlugin finished post-reload for START in 1.366 ms, totaling 6.965 ms.
+[26Mar2025 18:34:42.379] [main/INFO] [REI/]: [REI] ----------------------------------------
+[26Mar2025 18:34:42.379] [main/INFO] [REI/]: [REI] REIPlugin starting main-reload for END.
+[26Mar2025 18:34:42.379] [main/INFO] [REI/]: [REI] Plugins (2):
+[26Mar2025 18:34:42.379] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[26Mar2025 18:34:42.380] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[26Mar2025 18:34:42.380] [main/INFO] [REI/]: [REI] ----------------------------------------
+[26Mar2025 18:34:42.412] [main/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[26Mar2025 18:34:42.412] [main/INFO] [REI/]: [REI] REIServerPlugin starting main-reload for END.
+[26Mar2025 18:34:42.413] [main/INFO] [REI/]: [REI] Plugins (2):
+[26Mar2025 18:34:42.413] [main/INFO] [REI/]: [REI]  - (-100.00) DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[26Mar2025 18:34:42.413] [main/INFO] [REI/]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[26Mar2025 18:34:42.413] [main/INFO] [REI/]: [REI] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[26Mar2025 18:34:42.421] [main/INFO] [REI/]: [REI] REIPlugin finished post-reload for END in 2.210 ms, totaling 37.20 ms.
+[26Mar2025 18:34:42.423] [main/INFO] [REI/]: [REI] REIServerPlugin finished post-reload for END in 812.7 μs, totaling 7.115 ms.
+[26Mar2025 18:34:42.464] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: netherexp:sounds/polished_blackstone
+[26Mar2025 18:34:45.687] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[26Mar2025 18:34:45.845] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Mar2025 18:34:45.846] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Mar2025 18:34:45.846] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Mar2025 18:34:45.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Mar2025 18:34:45.998] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Mar2025 18:34:46.024] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Mar2025 18:34:46.100] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Mar2025 18:34:46.100] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Mar2025 18:34:46.100] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Mar2025 18:34:46.100] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Mar2025 18:34:46.120] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[26Mar2025 18:34:46.121] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for mutantmonsters
+[26Mar2025 18:34:46.122] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for mutantmonsters
+[26Mar2025 18:34:46.125] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Mar2025 18:34:46.126] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Mar2025 18:34:46.127] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[26Mar2025 18:34:46.135] [Server thread/INFO] [Puzzles Lib/]: Loading server config for magnumtorch
+[26Mar2025 18:34:46.137] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for magnumtorch
+[26Mar2025 18:34:46.138] [Server thread/INFO] [Puzzles Lib/]: Loading server config for hangglider
+[26Mar2025 18:34:46.139] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for hangglider
+[26Mar2025 18:34:46.143] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for hangglider
+[26Mar2025 18:34:46.152] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[26Mar2025 18:34:46.154] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[26Mar2025 18:34:46.323] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[26Mar2025 18:34:46.323] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[26Mar2025 18:34:46.323] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[26Mar2025 18:34:46.324] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[26Mar2025 18:34:46.324] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[26Mar2025 18:34:46.325] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[26Mar2025 18:34:46.325] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[26Mar2025 18:34:46.325] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[26Mar2025 18:34:46.326] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[26Mar2025 18:34:46.326] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[26Mar2025 18:34:46.349] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[26Mar2025 18:34:46.351] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[26Mar2025 18:34:46.355] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Mar2025 18:35:01.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Mar2025 18:35:04.682] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:04.710] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:04.960] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:04.972] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:04.983] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:04.994] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:05.014] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:05.294] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:05.793] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Mar2025 18:35:06.307] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[26Mar2025 18:35:06.644] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4852 ms
+[26Mar2025 18:35:06.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.533s)! For help, type "help"
+[26Mar2025 18:35:06.745] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Mar2025 18:35:06.811] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[26Mar2025 18:35:06.830] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[26Mar2025 18:35:06.831] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[26Mar2025 18:35:06.831] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[26Mar2025 18:35:06.883] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[26Mar2025 18:35:06.883] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[26Mar2025 18:35:06.883] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[26Mar2025 18:35:06.883] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[26Mar2025 18:35:06.926] [Server thread/INFO] [evilcraft/]: Skipped section info_book.evilcraftcompat.mod_integrations.jei due to unsatisfied mod condition.
+[26Mar2025 18:35:06.940] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 14
+[26Mar2025 18:35:06.940] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 17
+[26Mar2025 18:35:06.941] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: item config parser finished, item count: 16
+[26Mar2025 18:35:06.941] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! Modifiers ready: 28
+[26Mar2025 18:35:06.941] [Server thread/INFO] [atomicstryker.infernalmobs.common.InfernalMobsCore/]: InfernalMobsCore commonSetup completed! config file at: /workspaces/Minecraft/servidor_minecraft/./config/infernalmobs.cfg
+[26Mar2025 18:36:13.250] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[26Mar2025 18:36:13.293] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Not_Thom[/127.205.175.130:39267] logged in with entity id 977 at (-154.7605017698123, 107.0, 25.57607705250534)
+[26Mar2025 18:36:13.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom joined the game
+[26Mar2025 18:36:13.527] [Server thread/INFO] [Jade/]: Syncing config to Not_Thom (ea1c7427-1dc8-3390-892c-173b4a61ba82)
+[26Mar2025 18:36:55.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [Rotten to the Core]
+[26Mar2025 18:37:49.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [Sweet Dreams]
+[26Mar2025 18:39:25.659] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: WinterSokkalo[/127.66.29.109:47629] logged in with entity id 1933 at (-32.5, 104.0, -1.5)
+[26Mar2025 18:39:25.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WinterSokkalo joined the game
+[26Mar2025 18:39:25.732] [Server thread/INFO] [Jade/]: Syncing config to WinterSokkalo (fda7cfcd-58d5-3a3d-8c02-91013982a278)
+[26Mar2025 18:39:25.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WinterSokkalo has reached the goal [Easter]
+[26Mar2025 18:39:25.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WinterSokkalo has made the advancement [Ice and Fire]
+[26Mar2025 18:39:45.017] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGUII4889[/127.69.151.4:46617] logged in with entity id 2036 at (-34.5, 104.0, -6.5)
+[26Mar2025 18:39:45.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGUII4889 joined the game
+[26Mar2025 18:39:45.103] [Server thread/INFO] [Jade/]: Syncing config to MEGUII4889 (713b701b-7bd0-3649-aa1f-2c1f6063dce1)
+[26Mar2025 18:39:45.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGUII4889 has reached the goal [Easter]
+[26Mar2025 18:39:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGUII4889 has made the advancement [Ice and Fire]
+[26Mar2025 18:40:34.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not_Thom: Set own game mode to Survival Mode]
+[26Mar2025 18:44:03.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: WinterSokkalo has reached the goal [Flowers of the Savanna]
+[26Mar2025 18:44:03.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGUII4889 has reached the goal [Flowers of the Savanna]
