@@ -987,3 +987,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 [27Mar2025 02:16:41.035] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
 [27Mar2025 02:17:23.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [Clad to See You]
 [27Mar2025 02:36:38.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has reached the goal [Bone Crusher]
+[27Mar2025 02:40:13.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [Cover Me with Diamonds]
+[27Mar2025 02:49:29.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not_Thom: Set the time to 6000]
+[27Mar2025 02:55:29.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [Sea? Not a Problem]
+[27Mar2025 02:57:14.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [You Are A Pirate]

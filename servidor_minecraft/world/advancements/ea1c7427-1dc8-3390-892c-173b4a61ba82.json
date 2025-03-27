@@ -46,12 +46,14 @@
       "minecraft:stony_peaks": "2025-03-26 20:48:11 +0000",
       "minecraft:sparse_jungle": "2025-03-26 19:25:23 +0000",
       "minecraft:river": "2025-03-26 18:58:10 +0000",
+      "minecraft:lukewarm_ocean": "2025-03-27 02:34:49 +0000",
       "minecraft:stony_shore": "2025-03-26 18:46:05 +0000",
       "minecraft:grove": "2025-03-26 20:52:15 +0000",
       "minecraft:jagged_peaks": "2025-03-27 02:14:22 +0000",
       "minecraft:forest": "2025-03-26 18:57:01 +0000",
       "minecraft:jungle": "2025-03-26 20:39:51 +0000",
       "minecraft:ocean": "2025-03-26 21:07:06 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-03-27 02:35:01 +0000",
       "minecraft:old_growth_birch_forest": "2025-03-26 19:44:22 +0000",
       "minecraft:meadow": "2025-03-26 20:52:40 +0000",
       "minecraft:savanna": "2025-03-26 06:55:37 +0000",
@@ -4568,9 +4570,21 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-03-27 02:40:13 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/stripped_dark_oak_cabinet": {
     "criteria": {
       "has_log": "2025-03-27 02:17:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-27 02:36:09 +0000"
     },
     "done": true
   },
@@ -4580,9 +4594,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-27 02:36:09 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/decorations/dark_oak_upgraded_fence": {
     "criteria": {
       "has_log": "2025-03-27 02:17:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-03-27 02:36:09 +0000"
     },
     "done": true
   },
@@ -4622,6 +4648,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2025-03-27 02:36:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-03-27 02:17:28 +0000"
@@ -4637,6 +4669,18 @@
   "cfm:recipes/decorations/stripped_dark_oak_desk_cabinet": {
     "criteria": {
       "has_planks": "2025-03-27 02:17:28 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2025-03-27 02:38:40 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/copper_ingot_to_nuggets": {
+    "criteria": {
+      "has_item": "2025-03-27 02:36:09 +0000"
     },
     "done": true
   },
