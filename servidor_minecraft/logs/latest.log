@@ -991,3 +991,11 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
 [27Mar2025 02:49:29.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not_Thom: Set the time to 6000]
 [27Mar2025 02:55:29.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [Sea? Not a Problem]
 [27Mar2025 02:57:14.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Not_Thom has made the advancement [You Are A Pirate]
+[27Mar2025 03:02:32.569] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[27Mar2025 03:02:32.570] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[27Mar2025 03:02:32.570] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[27Mar2025 03:02:33.330] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[27Mar2025 03:02:33.331] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[27Mar2025 03:07:56.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[27Mar2025 03:07:56.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[27Mar2025 03:07:56.928] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
